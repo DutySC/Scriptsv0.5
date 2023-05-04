@@ -10,3 +10,4 @@ COPY . app
 WORKDIR app
 CMD ["python3", "BotTelegram.py"]
 #CMD ["pytest", "-s", "test_PK.py"]
+#docker run selenium/standalone-chrome

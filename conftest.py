@@ -34,8 +34,7 @@ def browser_PK():
     # driver = webdriver.Remote(f"{p_link}", DesiredCapabilities.CHROME, options=chrome_options)  # настройка драйвера
     # driver = webdriver.Chrome(service=service, options=chrome_options) # настройка драйвера
     link_1 = 'https://192.168.233.171:25443/' # адрес для подключения
-    link_2 = 'http://192.168.234.31:1580/'  # адрес для подключения
-    driver.get(link_2) # подключение по указанному адресу
+    driver.get(link_1) # подключение по указанному адресу
     yield driver # возврат из функции с сохранением состояния ее переменных
     driver.quit() # выход из браузера
 
